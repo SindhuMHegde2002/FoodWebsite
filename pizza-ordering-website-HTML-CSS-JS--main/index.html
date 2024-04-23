@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProPizza-Genuine ingredients, Great Taste</title>
+    <link rel="stylesheet" href="CSS/homepage.css" />
+  </head>
+  <body>
+    <nav class="nav-bar" id="nav-bar">
+
+      <a href="#home"><div class="website-name">ProPizza <i data-lucide="pizza"></i></div></a>
+      <div class="menu-items">
+        <a href="#home"><div>Home</div></a>
+        <a href="#menu"><div>Menu</div></a>
+        <a href="#about"><div>About</div></a>
+      </div>
+      <div class="cart" >
+        <div class="cart-text" onclick="showCart();">Cart<div class="cart-quantity"></div></div>
+        
+      </div>
+    </nav>
+    <main>
+      <div class="cart-box">
+        <div class="cart-box-heading">Wow! Your Cart Looks Tasty</div>
+        <div class="cart-box-elements">
+
+          <!-- <div class="cart-box-elements-item">
+            <div class="cart-box-elements-item-imageContainer">
+              <img class="cart-box-elements-item-image" src="images/bbqchicken.jpg" alt="">
+            </div>
+            <div class="cart-box-elements-item-itemdetails">
+              <div class="cart-box-elements-item-name">Name of the Pizza</div>
+              <div class="cart-box-elements-item-price">Price-₹999</div>
+              <div class="cart-box-elements-item-quantity">Quantity-1</div>
+              <div class="cart-box-elements-item-finalamount">
+                <div class="cart-item-finalprice">₹4532</div>
+                <div class="cart-item-addremove">
+                  <div class="cart-item-add"><i class="plus-circle"  data-lucide="plus-circle"></i>
+                    <i class="minus-circle" data-lucide="minus-circle"></i></div>
+                  <div><button class="cart-item-remove">Remove Item</button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-box-elements-item">
+            <div class="cart-box-elements-item-imageContainer">
+              <img class="cart-box-elements-item-image" src="images/bbqchicken.jpg" alt="">
+            </div>
+            <div class="cart-box-elements-item-itemdetails">
+              <div class="cart-box-elements-item-name">Name of the Pizza</div>
+              <div class="cart-box-elements-item-price">Price-₹999</div>
+              <div class="cart-box-elements-item-quantity">Quantity-1</div>
+              <div class="cart-box-elements-item-finalamount">
+                <div class="cart-item-finalprice">₹4532</div>
+                <div class="cart-item-addremove">
+                  <div class="cart-item-add"><i class="plus-circle"  data-lucide="plus-circle"></i>
+                    <i class="minus-circle" data-lucide="minus-circle"></i></div>
+                  <div><button class="cart-item-remove">Remove Item</button></div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+        </div>
+        <div class="cart-total">
+          <div class="cart-total-heading">You Cart Total</div>
+          <div class="cart-total-amount"></div>
+          <button class="place-the-order">Place the Order</button>
+        </div>
+      </div>
+      <div class="main-top" id="home">
+        <div class="main-text">
+          <div class="main-text-heading">
+            Simple and <br />
+            Tasty Recepies
+          </div>
+          <div class="main-text-subtext">
+            We take locally sources ingredients and serve you the tasting and
+            the most healthy pizza
+          </div>
+          <div class="main-text-button-div">
+            <a href="#menu"
+              ><button class="main-text-button">Order Now</button></a
+            >
+          </div>
+        </div>
+        <div><img class="main-image" src="images/main-image.jpg" alt="" /></div>
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu-items-heading">Menu Items</div>
+        <div class="menu-items-list">
+          <!-- <div class="menu-item-container">
+            <div class="item-image-div"><img class="item-image" src="images/main-image.jpg" alt="imagenotfound"></div>
+            <div class="item-name">
+              Margherita
+            </div>
+            <div class="item-description">Classic pizza with tomato, mozzarella, and basil toppings.</div>
+            <div class="item-rating">⭐5</div>
+            <button class="item-order-button">Order Now</button>
+          </div> -->
+        </div>
+      </div>
+      <div class="our-services-div">
+        <div class="our-services-heading">Our Services</div>
+        <div class="our-services-list">
+          <div class="service">
+            <div>
+              <i
+                class="service-logo"
+                class="service-logo"
+                data-lucide="truck"
+              ></i>
+            </div>
+            <div class="service-text">Express Delivery</div>
+          </div>
+          <div class="service">
+            <div>
+              <i class="service-logo" data-lucide="utensils-crossed"></i>
+            </div>
+            <div class="service-text">30+ Restaurants</div>
+          </div>
+          <div class="service">
+            <div><i class="service-logo" data-lucide="badge-percent"></i></div>
+            <div class="service-text">Discount System</div>
+          </div>
+          <div class="service">
+            <div><i class="service-logo" data-lucide="smile-plus"></i></div>
+            <div class="service-text">Best Quality</div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-div">
+        <div class="reviews-heading">Words from our Customers</div>
+        <div class="reviews">
+          <!-- <div class="review-container">
+              <div class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+              <div class="review-stars">⭐5 star</div>
+              <div class="review-customer">Vaibhav Upadhyay</div>
+            </div> -->
+        </div>
+      </div>
+    </main>
+    <footer id="about">
+      <div class="website-name-footer">
+        <p>ProPizza</p>
+        <p><i class="website-icon" data-lucide="pizza"></i></p>
+      </div>
+      <div class="footer-right-content">
+        <ul>
+          <li>
+            Welcome to ProPizza, where passion for pizza meets a commitment to
+            quality!
+          </li>
+          <li>
+            Our story is one of flavor, freshness, and a dedication to sourcing
+            the finest local ingredients to create a pizza experience like no
+            other.
+          </li>
+          <li>
+            ProPizza's journey began with a simple dream: to redefine pizza by
+            combining the authenticity of locally sourced ingredients with the
+            artistry of traditional craftsmanship. Every slice we serve tells a
+            story of the region, embracing the unique flavors and textures that
+            only the freshest, nearby farms and producers can provide.
+          </li>
+          <li>
+            At ProPizza, we believe that great taste starts with great
+            ingredients. That's why we meticulously select each component of our
+            pizzas, from the vine-ripened tomatoes in our signature sauce to the
+            premium cheeses that blanket our crusts. Our commitment to quality
+            isn't just a promise – it's a passion that resonates in every bite.
+          </li>
+          <li>
+            Step into ProPizza, and you'll be welcomed by the aroma of freshly
+            baked crusts and the sizzle of premium toppings. Our skilled
+            pizzaiolos craft each pizza with precision and care, ensuring that
+            every order is a masterpiece of taste and quality.
+          </li>
+          <li>
+            Whether you're a traditionalist craving a classic Margherita or an
+            adventurer seeking bold, innovative flavors, our diverse menu caters
+            to every palate. From hand-tossed crusts to gluten-free options, we
+            strive to make our pizzas accessible to all, without compromising on
+            taste or quality.
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="script/pizzaitems.js"></script>
+    <script src="script/pizzareviews.js"></script>
+    <script src="script/homepage.js"></script>
+    <script src="script/cart.js"></script>
+  </body>
+</html>
