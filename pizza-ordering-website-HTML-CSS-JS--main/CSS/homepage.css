@@ -488,12 +488,20 @@ footer {
     margin-top: 0;
     margin-bottom: 1vh;
   }
+
   .item-image {
     width: 20vh;
     height: 20vh;
   }
-  .service {
-    width: 20vw;
+  .our-services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .service{
+    text-align: center;
   }
   .review-container {
     width: 80%;
